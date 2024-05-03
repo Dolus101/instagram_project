@@ -1,0 +1,57 @@
+aside {
+    float: left;
+}
+
+.sidebar {
+    width: 245px;
+    height: 100vh;
+    border-right: 1px rgb(224, 223, 223) solid;
+}
+
+.sidebar .txt-logo img {
+    width: 105px;
+    aspect-ratio: auto;
+    position: absolute;
+    left: -15px;
+    top: 24.5px;
+    float: left;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 29.5px;
+    position: relative;
+    top: 70px;
+    right: 59px;
+}
+
+.sidebar ul li img.profile {
+    width: 25px;
+    aspect-ratio: auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: 2px;
+}
+
+.sidebar ul li svg {
+    position: relative;
+    bottom: 2px
+}
+
+.sidebar ul li .side-btn {
+    position: relative;
+    left: 11.5px;
+    top: 1px
+}
+
+.sidebar ul li.settings {
+    position: relative;
+    padding-top: 70px;
+}
+
+.sidebar ul li .btn-profile {
+    position: relative;
+    left: 11.5px;
+    top: 1px
+}

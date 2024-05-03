@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/sidebar.css">
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,7 @@
                 ?>
             </div>
         </div>
-        <div class="container">
+        <div class="containe body-content">
             <div class="center-body">
                 <div class="story">
                     <ul class="mx-auto">
@@ -69,15 +70,15 @@
                         <img src="../image/post/test.jpg" alt="">
                     </div>
                     <div class="react mt-2">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-comment fa-flip-horizontal"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i>
                     </div>
                     <div class="likes bold mt-2">
                         <span class="count-likes">0</span> likes
                     </div>
                     <div class="msg-container mt-1">
-                    <span class="username1">col3.trinity</span>
-                       <span class="msg"> TEST HERE </span>
+                        <span class="username1">col3.trinity</span>
+                        <span class="msg"> TEST HERE </span>
                     </div>
                     <div class="comment">
                         <textarea name="" id="" placeholder="Add a comment.."></textarea>
@@ -85,11 +86,32 @@
                     </div>
                     <hr>
                 </div>
-                <div class="friend-suggest">
-                    <div class="users-suggest-profile">
-                        <img src="../image/profile/samplepic.jpg" alt="" class="users-profile">
+                <div class="post mx-auto mt-4">
+                    <div class="user_profile ms-1">
+                        <img src="../image/profile/samplepic.jpg" alt="user_profile" class="img_fluid profiles">
+                        <span class="username">col3.trinity</span>
                     </div>
+                    <div class="post-img mt-2">
+                        <img src="../image/post/test.jpg" alt="">
+                    </div>
+                    <div class="react mt-2">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i>
+                    </div>
+                    <div class="likes bold mt-2">
+                        <span class="count-likes">0</span> likes
+                    </div>
+                    <div class="msg-container mt-1">
+                        <span class="username1">col3.trinity</span>
+                        <span class="msg"> TEST HERE </span>
+                    </div>
+                    <div class="comment">
+                        <textarea name="" id="" placeholder="Add a comment.."></textarea>
+                        <span class="comment-react"><i class="fa-regular fa-face-smile"></i></span>
+                    </div>
+                    <hr>
                 </div>
+
             </div>
 
 
@@ -165,6 +187,64 @@
                         <option value="sr">Српски</option>
                         <option value="uk">Українська</option>
                     </select>
+
+                    © 2024 Instagram from Meta
+
+                </div>
+            </footer>
+        </div>
+        <div class="container friend-suggest">
+            <div class="users-suggest-profile mt-4 d-flex">
+                <img src="../image/profile/samplepic.jpg" alt="" class="img-fluid users-profile">
+                <div class="user_name flex-column">
+                    <div class="my_user"><span>col3.trinity</span></div>
+                    <div class="my_name"><span>Nicole Franz Dizon</span></div>
+                </div>
+                <div class="my_switch"><span>Switch</span></div>
+            </div>
+            <div class="suggested-word d-flex">
+                <span class="first">Suggested for you</span>
+                <span class="seall">See All</span>
+            </div>
+            <div class="suggested-people d-flex">
+                <img src="../image/profile/samplepic.jpg" alt="" class="img-fluid users-profile">
+                <div class="user_name flex-column">
+                    <div class="my_user"><span>col3.trinity</span></div>
+                    <div class="my_name"><span>Nicole Franz Dizon</span></div>
+                </div>
+                <div class="my_switch"><span>Follow</span></div>
+            </div>
+            <div class="suggested-people d-flex">
+                <img src="../image/profile/samplepic.jpg" alt="" class="img-fluid users-profile">
+                <div class="user_name flex-column">
+                    <div class="my_user"><span>col3.trinity</span></div>
+                    <div class="my_name"><span>Nicole Franz Dizon</span></div>
+                </div>
+                <div class="my_switch"><span>Follow</span></div>
+            </div>
+            <div class="suggested-people d-flex">
+                <img src="../image/profile/samplepic.jpg" alt="" class="img-fluid users-profile">
+                <div class="user_name flex-column">
+                    <div class="my_user"><span>col3.trinity</span></div>
+                    <div class="my_name"><span>Nicole Franz Dizon</span></div>
+                </div>
+                <div class="my_switch"><span>Follow</span></div>
+            </div>
+            <footer class="suggested-footer mt-5">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Api</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms Lite</a></li>
+                    <li><a href="">Locations</a></li>
+                    <li><a href="">Language</a></li>
+                    <li><a href="">Meta Verified</a></li>
+                </ul>
+
+                <div class="contianer mt-2 copyright">
 
                     © 2024 Instagram from Meta
 

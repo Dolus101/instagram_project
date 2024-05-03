@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-body {
+    display: flex;
+    width: 95vw !important;
+}
+
+/* START HERE */
+
+.profile-body{
+    background-color: brown;
+}
+
+.profile-body .user-info img{
+    width: 150px;
+    aspect-ratio: auto;
+    border-radius: 50%;
+    margin-left: 161px;
+    position: relative;
+    top: 2px;
+}
+
+.user-info .short-info{
+    background-color: red;
+    border: 1px solid black;
+    width: 390px;
+    height: 200px;
+    position: relative;
+    left: 110px
+}

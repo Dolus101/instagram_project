@@ -1,94 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container-body{
+.container-body {
     display: flex;
     width: 95vw !important;
 }
 
-aside{
-    float: left;
-}
-
-.sidebar{
-    width: 240px;
-    height: 100vh;
-    border-right: 1px rgb(224, 223, 223) solid;
-}
-
-.sidebar .txt-logo img{
-    width: 105px;
-    aspect-ratio: auto;
-    position: absolute;
-    left: -15px;
-    top: 24.5px;
-    float: left;
-}
-
-.sidebar ul li{
-    list-style-type: none;
-    font-size: 16px;
-    padding-top: 29.5px;
-    position: relative;
-    top: 70px;
-    right: 59px;
-}
-
-.sidebar ul li img.profile{
-    width: 25px;
-    aspect-ratio: auto;
-    border-radius: 50%;
-    position: relative;
-    bottom: 2px;
-}
-
-.sidebar ul li svg{
-    position: relative;
-    bottom: 2px
-}
-
-.sidebar ul li .side-btn{
-    position: relative;
-    left: 11.5px;
-    top: 1px
-}
-
-.sidebar ul li.settings{
-    position: relative;
-    padding-top: 70px;
-}
-
-.sidebar ul li .btn-profile{
-    position: relative;
-    left: 11.5px;
-    top: 1px
-}
-
-
 /* END OF SIDE BAR CSS */
-.center-body{
+.body-content {
+    width: 70% !important;
+}
+
+.center-body {
     width: 70%;
 }
 
-.story ul{
+.story ul {
     list-style-type: none;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 11px;
+    left: 28px;
     top: 10px;
 }
 
-.story ul li{
+.story ul li {
     margin-left: 22px;
 }
 
 
-li .story-profile{
+li .story-profile {
     background-color: grey;
     border: 1px black solid;
     width: 58px;
@@ -100,76 +45,155 @@ li .story-profile{
 /* END OF STORY CSS */
 
 
-.user_profile img.profiles{
+.user_profile img.profiles {
     border-radius: 50%;
     width: 30px;
     aspect-ratio: auto;
 }
 
-.post.mt-4{
+.post.mt-4 {
     /* border: 1px black solid; */
-    width: 62%;
+    width: 85%;
     height: auto;
-    margin-top: 40px!important;
+    margin-top: 40px !important;
+    position: relative;
+    left: 111px;
 }
 
-span.username{
+span.username {
     font-size: 14px;
     font-weight: bold;
     margin-left: 5px;
 }
 
-.post-img img{
-    width: 100%;;
+.post-img img {
+    width: 100%;
+    ;
     object-fit: contain;
     aspect-ratio: auto;
 }
 
-.post .react i{
+.post .react i {
     font-size: 25px;
     margin-right: 15px;
-    margin-top: 5px!important;
+    margin-top: 5px !important;
 }
 
-.likes{
+.likes {
     font-weight: 500;
     font-size: 15px;
 }
 
-span.username1{
+span.username1 {
     font-size: 14px;
     font-weight: bold;
 }
 
-span.msg{
+span.msg {
     font-size: 14px;
 }
 
-.comment input{
+.comment input {
     border: none;
     width: 100%;
 }
 
-.comment textarea{
+.comment textarea {
     width: 90%;
     height: 25px;
     border: none;
     resize: none;
 }
 
-.comment textarea:focus-visible{
+.comment textarea:focus-visible {
     outline: none;
 }
 
-.comment textarea::placeholder{
+.comment textarea::placeholder {
     font-size: 14px;
 }
 
-.comment span.comment-react{
+.comment span.comment-react {
     position: relative;
     bottom: 15px;
 }
 
+/*END OF CENTER-BODY */
+
+div.friend-suggest {
+    width: 30%;
+    height: 500px;
+    /* background-color: red; */
+    float: right!important;
+    position: relative;
+    right: 9px;
+}
+
+.users-suggest-profile img {
+    border-radius: 50%;
+    width: 43px;
+    aspect-ratio: auto;
+    margin-top:11px;
+}
+
+.users-suggest-profile img.users_profile {
+    position: relative;
+    top: 25px!important;
+}
+
+.my_user span{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.my_name span{
+    font-size: 14px;
+    /* font-weight: 500; */
+    position: relative;
+    top: 3px;
+    left: 10px;
+    color: rgb(159, 159, 159);
+}
+
+.my_switch span{
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    left: 90px;
+    color: #0095F6;
+}
+
+.suggested-word{
+    margin-top: 35px;
+}
+
+.suggested-word .first{
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 3px;
+    color: rgb(159, 159, 159);
+}
+
+.suggested-word .seall{
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    left: 130px;
+}
+
+.suggested-people img {
+    border-radius: 50%;
+    width: 43px;
+    aspect-ratio: auto;
+    margin-top:11px;
+    position: relative;
+    left: 2px
+}
 
 
 
@@ -182,26 +206,56 @@ span.msg{
 
 
 
-
-footer{
+footer {
     height: 110px;
 }
 
-footer a{
+footer.text-center a {
     text-decoration: none;
     font-size: 12px;
     margin-left: 12px;
     color: gray;
 }
 
-footer select{
+
+footer select {
     font-size: 12px;
     color: gray;
     border: none;
     width: 6%;
 }
 
-.copyright{
+.copyright {
+
+    font-size: 12px;
+
+    color: gray;
+}
+
+
+
+
+
+
+
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 3px;
+    color: gray;
+    position: relative;
+    right: 34px;
+}
+
+footer ul li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: disc;
+    color: gray;
+}
+
+.copyright {
 
     font-size: 12px;
 
